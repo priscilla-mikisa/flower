@@ -180,8 +180,43 @@ color: aliceblue;
 .amazing{
     display: flex;
     margin-left: 10%;
-    gap: 10%;
+    gap: 9%;
 }
 .amzg{
     margin-left: 10%;
+}
+.blogs{
+    display: flex;
+    gap:18%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.h1{
+    margin-left: 40%;
+}
+.footer{
+    display:flex;
+    gap:10%;
+    margin-left: 20%;
+}
+.ull{
+    list-style: none;
+}
+.navfooter{
+    margin-left: 35%;
+}
+.arrow{
+    width: 6%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.navimages{
+ display: flex;
+ gap: 10%;
+ margin-left: 4%;
+ margin-top: 5%;
+}
+.navparagraph{
+    margin-left: 35%;
+    margin-top: 5%;
 }
