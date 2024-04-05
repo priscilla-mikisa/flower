@@ -41,22 +41,22 @@ color: aliceblue;
 }
 .herosite{
     display: flex;
-    gap:5%;
+    gap:10%;
 }
-.heroimageslanding1{
-    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/terradium\ collection.jpeg");
-    width:50rem;
+.heroimagelanding1{
+    background-image: url("images/terradium\ collection.jpeg");
+    width:10rem;
     height:auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: black;
-    padding: 14%;
-    margin-left:15%;
+    padding:14%;
+    margin-left:8%;
 }.heroimageslanding2{
-    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/inspiration\ plant.jpeg");
-    width:50rem;
+    background-image:url("images/inspiration\ plant.jpeg");
+    width:15rem;
     height:auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,11 +64,12 @@ color: aliceblue;
     position: relative;
     color: black;
     padding: 14%;
-    margin-left:15%;
+    margin-left:55%;
 }
 .heroimageslanding3{
-    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/growchild.jpeg");
-    width:50rem;
+    background-image:url("images/growchild.jpeg");
+    width:15rem;
+    margin-top:15%;
     height:auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -76,49 +77,111 @@ color: aliceblue;
     position: relative;
     color: black;
     padding: 14%;
-    margin-left:15%;
-}
-.heroleft{
+    margin-left:55%;
+}.heroleft{
     display: flex;
     flex-direction: column;
-    gap: 5%;
 }
 .Allplants{
     display:flex;
+    margin-top: 5%;
+    gap:5%;
 }
 .herosale{
-    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/sale.jpeg");
-    width:50rem;
-    height:auto;
+    background-image:url("images/sale.jpeg");
+    width:10rem;
+    height:10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: black;
-    padding: 14%;
-    margin-left:15%;
+    padding: 4%;
+    margin-left:5%;
 }
 .houseplant{
-    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/house\ plants.jpeg");
-    width:50rem;
-    height:auto;
+    background-image:url("images/house\ plants.jpeg");
+    width:10rem;
+    height:10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: black;
-    padding: 14%;
-    margin-left:15%;
+    padding: 4%;
+    margin-left:5%;
 }
 .potted{
-    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/potted\ in\ home.jpeg");
-    width:50rem;
-    height:auto;
+    background-image:url("images/potted\ in\ home.jpeg");
+    width:10rem;
+    height:10rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: black;
-    padding: 14%;
-    margin-left:15%;
+    padding: 4%;
+    margin-left:5%;
+}
+.all{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.flowers{
+    display: flex;
+    gap: 5%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.firstrow{
+    display:flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    gap: 8%;
+}
+.second{
+    display: flex;
+    gap: 8%;
+}
+.pot{
+    width: 35rem;
+}
+.featured{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.tree{
+    display: flex;
+    gap: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.feature{
+    width: 30rem;
+}
+.treewords{
+    margin-top: 3%;
+}
+.heromango{
+    background-image:url("images/mango.jpeg");
+    width:70rem;
+    height:18rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 4%;
+    margin-left:10%;
+    margin-top: 2%;
+}
+.amazing{
+    display: flex;
+    margin-left: 10%;
+    gap: 10%;
+}
+.amzg{
+    margin-left: 10%;
 }
