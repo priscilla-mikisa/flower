@@ -1,0 +1,124 @@
+.main{
+    background-color: black;
+    }
+.minor{
+    margin-left:10%;
+    margin-right:10%;
+    background-color:white;
+}
+.nav{
+background-color: rgb(50, 178, 105);
+display:flex;
+gap: 50%;
+color: aliceblue;
+    }
+.dropdownicon{
+    width: 5%;
+    height: 45%;
+    margin-top: 3%;
+    border-radius: 50%;
+} 
+.icon{
+    display:flex;
+    gap:5%;
+}
+.Types{
+    background-color: aliceblue;
+    display:flex;
+}
+.dropicon{
+    width:1%;
+}  
+.dropicons{
+ width: 5%;
+} 
+.semi-nav{
+    list-style: none;
+    display:flex;
+}
+.dropiconss{
+    width: 35%;
+}
+.herosite{
+    display: flex;
+    gap:5%;
+}
+.heroimageslanding1{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/terradium\ collection.jpeg");
+    width:50rem;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 14%;
+    margin-left:15%;
+}.heroimageslanding2{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/inspiration\ plant.jpeg");
+    width:50rem;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 14%;
+    margin-left:15%;
+}
+.heroimageslanding3{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/growchild.jpeg");
+    width:50rem;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 14%;
+    margin-left:15%;
+}
+.heroleft{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+.Allplants{
+    display:flex;
+}
+.herosale{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/sale.jpeg");
+    width:50rem;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 14%;
+    margin-left:15%;
+}
+.houseplant{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/house\ plants.jpeg");
+    width:50rem;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 14%;
+    margin-left:15%;
+}
+.potted{
+    background-image: linear-gradient(rgba(25, 24, 24, 0.5), rgba(12, 12, 12, 0.622)), url("images/potted\ in\ home.jpeg");
+    width:50rem;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 14%;
+    margin-left:15%;
+}
