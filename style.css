@@ -54,7 +54,8 @@ color: aliceblue;
     color: black;
     padding:14%;
     margin-left:8%;
-}.heroimageslanding2{
+}
+.heroimageslanding2{
     background-image:url("images/inspiration\ plant.jpeg");
     width:15rem;
     height:auto;
@@ -219,4 +220,254 @@ color: aliceblue;
 .navparagraph{
     margin-left: 35%;
     margin-top: 5%;
+}
+@media screen and (min-width:280px) and (max-width:1000px){
+    .main{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        }
+    .minor{
+        margin-left:5%;
+        margin-right:5%;
+        background-color:white;
+    }
+    .nav{
+        background-color: rgb(50, 178, 105);
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 25%;
+        color: aliceblue;
+            }
+            .dropdownicon{
+                width: 5%;
+                height: 20%;
+                margin-top: 5%;
+                border-radius: 25%;
+            } 
+            .Types{
+                background-color: aliceblue;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .semi-nav{
+                list-style: none;
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .dropiconss{
+                width: 15%;
+            }
+            .herosite{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap:5%;
+            }
+            .heroimagelanding1{
+                background-image: url("images/terradium\ collection.jpeg");
+                width:6rem;
+                height:auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                color: black;
+                padding:14%;
+                margin-left:8%;
+            }
+            .heroimageslanding2{
+                background-image:url("images/inspiration\ plant.jpeg");
+                width:5rem;
+                height:auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                color: black;
+                padding: 14%;
+                margin-left:25%;
+            }
+            .heroimageslanding3{
+                background-image:url("images/growchild.jpeg");
+                width:5rem;
+                margin-top:5%;
+                height:auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                color: black;
+                padding: 14%;
+                margin-left:20%;
+}
+.Allplants{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20%;
+    gap:2%;
+    margin-left: 5rem;
+}
+.herosale{
+    background-image:url("images/sale.jpeg");
+    width:5rem;
+    height:5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 2%;
+    margin-top: 10rem;
+    font-size: 1rem;
+    margin-left:2%;
+}
+.houseplant{
+    background-image:url("images/house\ plants.jpeg");
+    width:5rem;
+    height:5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 2%;
+    font-size: 1rem;
+    margin-top: 10rem;
+    margin-left:2%;
+}
+.potted{
+    background-image:url("images/potted\ in\ home.jpeg");
+    width:5rem;
+    height:10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 2%;
+    margin-top: 10rem;
+    margin-left:2%;
+}
+.all{
+    margin-left: 15%;
+    margin-top: 10rem;
+    font-size: 1rem;
+}
+.flowers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-left: 4%;
+    margin-top: 2rem;
+}
+.firstrow{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 8%;
+    margin-left: 2rem;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin-left: 2rem;
+}
+.pot{
+    width: 16rem;
+    margin-left: 2rem;
+}
+.featured{
+    margin-left: 15%;
+    margin-top: 5rem;
+}
+.tree{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.feature{
+    width: 15rem;
+    height: auto;
+}
+.treewords{
+    margin-top: 3rem;
+}
+.heromango{
+    background-image:url("images/mango.jpeg");
+    width:15rem;
+    height:18rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    padding: 2%;
+    margin-left:2rem;
+    margin-top: 5rem;
+}
+.amazing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    gap: 9%;
+    margin-top: 5rem;
+}
+.amzg{
+    margin-left: 2rem;
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:18%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.h1{
+    margin-left: 2rem;
+}
+.footer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10%;
+    margin-left: 2rem;
+}
+.navimages{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-left: 2rem;
+    margin-top: 5rem;
+   }
+   .navfooter{
+    margin-left: 2rem;
+}
+.arrow{
+   display: none;
+}
+.navparagraph{
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.navimg{
+    margin-top: 5rem;
+}
 }
